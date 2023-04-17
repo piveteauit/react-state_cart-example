@@ -1,14 +1,17 @@
 import React from "react";
+import "./Cart.css";
 
 export function Cart() {
   return (
     <div className={"Main-Cart"}>
       <div>
-        Main cart list
+        Mon panier:
       </div>
 
       <div>
-        Main cart action button
+        <button>
+          Checkout
+        </button>
       </div>
     </div>
   )
