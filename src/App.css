@@ -3,9 +3,29 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 70px;
   pointer-events: none;
 }
+
+.Main {
+  display: flex;
+  flex-direction: row;
+}
+
+.Main-Cart {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.Main-Shop {
+  flex: 8;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -15,11 +35,12 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  height: 80px;
+  padding: 0 20px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   font-size: calc(10px + 2vmin);
   color: white;
 }
